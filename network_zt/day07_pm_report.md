@@ -104,4 +104,4 @@ COPY site-three/index.html /usr/share/nginx/html/index.html
 
 - (가) `git status` 를 쳤을 때 빨간 목록에 줄이 몇 개였는지, 그 가운데 `.env` · `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: ① 빨간 목록의 줄 수 ② .env · .venv 가 있었는지
-  - 답:
+  - 답: `Untracked files` 목록에 15개 항목이 있었고, `.env`와 `.venv`는 없었습니다. 이후 `git add .`, `git commit`, `git push`를 순서대로 실행했고 커밋 `7f3a1f9`가 `main` 브랜치에 성공적으로 올라갔습니다.
