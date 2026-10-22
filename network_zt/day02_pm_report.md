@@ -67,4 +67,4 @@ AssertionError: 6. 만료 정각에도 허용되어야 한다(팀원 제안)
 
 - (가) `git status` 를 쳤을 때 `Untracked files:` 아래 줄이 몇 개였는지, 그 가운데 `.env` · `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: 줄 수와 `.env` · `.venv` 유무
-  - 답:
+  - 답: 당시 `Untracked files:` 아래에는 4줄이 있었고, `.env` 와 `.venv` 는 없었다.
