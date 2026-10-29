@@ -76,4 +76,4 @@ SLA 초과 요청 번호: 5
 
 - (가) `git status` 를 쳤을 때 `Untracked files:` 아래에 줄이 몇 개 보였는지, 그중에 `.env` 나 `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: 줄 수, `.env` · `.venv` 가 있었는지 없었는지
-  - 답:
+  - 답: 지금 확인한 `git status` 에는 `Untracked files:` 항목이 없어서 줄 수는 0개입니다. `.env` 와 `.venv` 도 없습니다. 현재 작업 트리는 깨끗합니다.
