@@ -74,4 +74,4 @@ dami SALES:QUERY <- 예외 3번 | 퇴사한 계정
 
 - (가) `git status` 를 쳤을 때 `Untracked files:` 아래에 줄이 몇 개 보였는지, 그중에 `.env` 나 `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: ① 줄 수 ② `.env` · `.venv` 가 있었는지 없었는지
-  - 답:
+  - 답:Untracked files: 아래에 16줄이     보였다(config의 access_log.json·exclude_list.json, day04 실행 파일 5개, 보고서·문서 md 4개, 함수 파일 5개). 그중에 .env나 .venv는 없었다. 그래서 비밀번호·키가 든 파일이나 가상환경 폴더가 깃허브에 올라가지 않았다.
