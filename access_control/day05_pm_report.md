@@ -95,4 +95,10 @@ dami SALES:QUERY office 2026-10-30T10:00 -> False 퇴사한 계정
 
 - (가) `git status` 를 쳤을 때 `Untracked files:` 아래에 줄이 몇 개 보였는지, 그중에 `.env` 나 `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: ① 줄 수 ② `.env` · `.venv` 가 있었는지 없었는지
-  - 답:
+  - 답:① Untracked files: 아래에 보인 줄 수: 23줄
+
+  access_control/access_server.py부터 access_control/server_log.jsonl까지 23개입니다. 커밋 결과의 23 files changed와도 같습니다.
+
+  ② .env · .venv 가 있었는지: 없었습니다.
+
+  목록에 .env도 .venv도 보이지 않습니다. 비밀 값이나 가상환경 폴더가 올라가지 않았으니 안전합니다.
