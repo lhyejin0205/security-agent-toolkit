@@ -97,4 +97,4 @@ anomaly_detection-web3-1   nginx:1.28   "/docker-entrypoint.…"   web3      1 s
 
 - (가) `git status` 를 쳤을 때 `.env` 나 `.venv` 가 보였는지, 보였다면 어떻게 했는지 적어 주세요.
   - 쓸 내용: ① `.env` · `.venv` 가 보였는지 ② 보였다면 한 조치
-  - 답:
+  - 답: 붙여 넣은 저장소 최상위 폴더의 `git status` 출력에는 `.env`와 `.venv`가 보이지 않았습니다. 대신 `alerts.json`과 `day04_pm_report.md`의 수정 사항 및 `anomaly_detection` 안의 새 파일들이 표시되었습니다. 따라서 이 출력에서 `.env`나 `.venv`에 대해 별도로 조치할 것은 없었습니다.
