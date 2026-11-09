@@ -1,4 +1,5 @@
 .env
+.env.sw?
 .venv
 .ipynb_checkpoints
 __pycache__
